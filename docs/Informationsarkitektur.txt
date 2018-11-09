@@ -1,15 +1,8 @@
 IA for SweetBot:
 
-HotBot
-Templates
-	Wordpress
-	Joomla
-	Drupal
-AntiVirus
-Licenskoder
-Branding (altså sweetbots eget branding)(f.eks kaffekop eller musemåtte)
-Bøger
-Manualer
+
+
+Forside
 
 
 Webudvikling:
@@ -34,12 +27,20 @@ Udvikling af identitet
 
 
 
+HotBot
+Templates
+	Wordpress
+	Joomla
+	Drupal
+AntiVirus
+Licenskoder
+Branding (altså sweetbots eget branding)(f.eks kaffekop eller musemåtte)
+Bøger
+Manualer
+
 
 Kontakt
 
-
-
-Forside
 
 
 
