@@ -1,1 +1,4 @@
 skulle gerne være mark branch jeg her ændrer i
+
+Så nu laver jeg her en ændring i mark branchen og merger den derefter ind i master branchen. Som havde det
+været en f.eks ændring i html filen
