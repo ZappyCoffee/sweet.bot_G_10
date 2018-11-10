@@ -1,6 +1,26 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Leg med sticky nav start her */
+
+.nav {
+	padding: 25px 0;
+	background-color: red;
+	position: sticky;
+}
+
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+
+/* Leg med sticky nav slut her */
+
 container {
 	display: flex;
 	flex-direction: column;
