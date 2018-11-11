@@ -48,10 +48,6 @@ nav a:hover {
 	border-bottom: 1px solid white;
 }
 
-nav a.active {
-	border-bottom: 1px solid white;
-}
-
 /* Forside layout leg starter her */
 
 
@@ -72,6 +68,19 @@ container {
 
 .pages h1 {
 	text-align: center;
+}
+
+#landing {
+	background-image: url(../images/landing_background.png);
+	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: cover;
+}
+
+#landing_tekst {
+	padding-top: 50px;
+	color: white;
+	font-size: 10em;
 }
 
 #one {
