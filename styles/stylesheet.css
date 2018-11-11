@@ -45,7 +45,10 @@ container {
 }
 
 #one {
-	background-color: #ffc100;
+	background-image: url(../images/web_design_background.jpg);
+	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: cover;
 }
 
 #two {
