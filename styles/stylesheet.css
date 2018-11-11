@@ -3,12 +3,10 @@
 
 /* Leg med sticky nav start her */
 
+/* regler for klassen (div kassen der indeholder nav) */
 .nav {
-	padding: 25px 0;
-	background-color: red;
 	position: sticky;
 }
-
 
 .sticky {
   position: fixed;
@@ -23,6 +21,35 @@
 
 /* Leg med selve nav start her (responsive) */
 
+/* Flexbox navigation */
+nav {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	/* leg */
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: hotpink;
+	box-shadow: 0px 6px 10px -6px rgba(0,0,0,0.75);
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-family: Roboto, sans-serif;
+	padding: 10px;
+}
+
+nav a:hover {
+	color: white;
+	border-bottom: 1px solid white;
+}
+
+nav a.active {
+	border-bottom: 1px solid white;
+}
+
+/* Forside layout leg starter her */
 
 
 /* Leg med selve nav slut her (responsive) */
@@ -30,7 +57,7 @@
 container {
 	display: flex;
 	flex-direction: column;
-	background-color: #6ec9c8;
+	
 }
 
 .pages {
