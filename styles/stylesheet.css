@@ -32,7 +32,7 @@ nav {
 	/* leg */
 	padding-top: .5em;
 	padding-bottom: .5em;
-	background-color: hotpink;
+	/*background-color: hotpink;*/
 	box-shadow: 0px 6px 10px -6px rgba(0,0,0,0.75);
 }
 
@@ -71,42 +71,52 @@ container {
 }
 
 #landing {
+	/*
 	background-image: url(../images/landing_background.png);
 	background-repeat: no-repeat;
   	background-position: center;
   	background-size: cover;
+	*/
 }
 
 #landing_tekst_overskrift {
 	padding-top: 50px;
-	color: white;
+	color: black;
 	font-size: 10em;
 }
 
 #landing_tekst_info {
-	color: white;
+	color: black;
 	font-size: 1.1em;
 	margin-left: 20%;
 	margin-right: 20%;
 }
 
 #one {
+	/*
 	background-image: url(../images/web_design_background.jpg);
 	background-repeat: no-repeat;
   	background-position: center;
   	background-size: cover;
+	*/
 }
 
 #two {
+	/*
 	background-color: #69b224;
+	*/
 }
 
 #three {
+	/*
 	background-color: #0465a8;
+	*/
 }
 
 #four {
+	/*
 	background-color: #94247c;
+	*/
 }
 
 
@@ -151,9 +161,14 @@ container {
     background: #00ace6;
 }
 
-/* *********** media queries *********** */
+/* *********** media queries til max width 990px *********** */
 @media all and (max-width: 990px) {
-  .flex-container {
+  
+	.pages {
+		background-color: red; /* holderen til alle pages på siden */
+	}
+	
+	.flex-container {
     flex-direction: column;
   }
   
@@ -168,7 +183,7 @@ container {
 }
 
 
-/* ****** ****** */
+/* ****** media queries til max width 600px ****** */
 @media all and (max-width: 600px) {
  
 	.pages {
@@ -176,7 +191,9 @@ container {
 	}
 	
 	#two {
+		/*
 		background-color: red;
+		*/
 	}	
 	
   .logo {
