@@ -171,6 +171,14 @@ container {
 /* ****** ****** */
 @media all and (max-width: 600px) {
  
+	.pages {
+		background-color: blue; /* holderen til alle pages på siden */
+	}
+	
+	#two {
+		background-color: red;
+	}	
+	
   .logo {
     margin: .25em 0;
     align-self: left; /* align the logo to the left side of 'flex-container' */
