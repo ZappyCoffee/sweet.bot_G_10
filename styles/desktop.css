@@ -24,8 +24,7 @@ nav {
 	justify-content: flex-end;
 	align-items: center;
 	/* leg */
-	background-color: hotpink;
-	box-shadow: 0px 6px 10px -6px rgba(0,0,0,0.75);
+	background-color: #3D6BB4;
 	
 }
 
@@ -43,8 +42,7 @@ nav a:hover {
 .logo {
 	/* leg */
 	width: auto;
-	background-color: hotpink;
-	box-shadow: 0px 6px 10px -6px rgba(0,0,0,0.75);
+	background-color: transparent;
 }
 
 .icon {

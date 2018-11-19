@@ -84,17 +84,20 @@ footer {
 
 .logo {
 	height: 60px;
+	padding-right: 80px; /* afstand til menuen */
 }
 nav {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
+    }
+
+
 article {
 	height: auto;
 	min-height: 600px;
-	padding-top: 150px;
+	padding-top: 125px;
 }
 
 
@@ -117,9 +120,10 @@ article {
 	align-items: center;
 	width: 80%;
 	height: auto;
-	background-color: white;
+	background-color: black;
 	opacity: 0.6;
 	border: thin black solid;
+	padding: 20px;
 	
 }
 
@@ -133,19 +137,19 @@ article {
 
 
 #one {
-	background-color: #ffc100;
+	background-color: #DF9B67;
 }
 
 #two {
-	background-color: #69b224;
+	background-color: #DF9B67;
 }
 
 #three {
-	background-color: #0465a8;
+	background-color: #DF9B67;
 }
 
 #four {
-	background-color: #94247c;
+	background-color: #DF9B67;
 }
 
 header {
@@ -163,9 +167,42 @@ header {
 
 /* SimpleGrid regler */
 .content {
-	background-color: white;
+	
 	border: thin black solid;
 }
 
+/* speficik regel for forside content boksen således den får ingen baggrund og border (behøves måske ikke senere når alt andet bliver fjernet) */
+.frontpage_content {
+	background-color: transparent;
+	border: none;
+}
+/* frontpage img regler */
+.frontpage_img {
+	display: flex;
+	margin-left: auto; /* centrerer billedet lige i content-holderen */
+	margin-right: auto; /* centrerer billedet lige i content-holderen */
+	border-radius: 50%; /* runde hjørner */
+	margin-bottom: 30px; /* rykker teksten nedenunder lidt ned fra bunden af billedet */
+}
 
-/* menu leg */
+/* frontpage txt regler */
+.frontpage_tekst {
+	text-align: center; /* smider teksten centreret */
+}
+
+
+/* Lato typho */
+
+.lato_medium {
+	color: white;
+	font-family: lato, sans-serif;
+	font-weight: 500;
+	font-style: normal; 
+}
+
+.lato_regular {
+	color: white;
+	font-family: lato, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
