@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Browser/CSS reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* Importerer her SimpleGrid (Dallas Bass) */
+@import "../simplegrid.css";
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Egne styles her!!! */
+
+body {
+	font-family: helvetica, arial, sans-serif; 
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.container h1 {
+	text-align: center;
+}
+
+.logo, nav, article, footer {
+	background: #ddd;
+	width: 100%;
+	outline: 1px solid #666;
+}
+
+footer {
+	background-color: blueviolet;
+}
+
+.logo {
+	height: 60px;
+}
+nav {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+article {
+	height: auto;
+	min-height: 600px;
+	padding-top: 150px;
+}
+
+
+#landing_page {
+	background-image: url(../images/rawpixel-678089-unsplash.jpg);
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+#landing_tekst {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	width: 80%;
+	height: auto;
+	background-color: white;
+	opacity: 0.6;
+	border: thin black solid;
+	
+}
+
+#landing_tekst h1 {
+	font-size: 40px;
+}
+
+#landing_tekst p {
+	text-align: center;
+}
+
+
+#one {
+	background-color: #ffc100;
+}
+
+#two {
+	background-color: #69b224;
+}
+
+#three {
+	background-color: #0465a8;
+}
+
+#four {
+	background-color: #94247c;
+}
+
+header {
+  display: flex;
+  position: sticky;
+  position: fixed;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;	
+}
+
+/* SimpleGrid regler */
+.content {
+	background-color: white;
+	border: thin black solid;
+}
+
+
+/* menu leg */
