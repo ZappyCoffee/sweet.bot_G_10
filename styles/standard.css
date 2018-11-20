@@ -1,0 +1,257 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Browser/CSS reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* Importerer her SimpleGrid (Dallas Bass) */
+@import "../simplegrid.css";
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Egne styles her!!! */
+
+body {
+	font-family: helvetica, arial, sans-serif; 
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.container h1 {
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.logo, nav, article, footer {
+	
+	width: 100%;
+	outline: 1px solid #666;
+}
+
+footer {
+	background-color: #3D6BB4;
+}
+
+.logo {
+	height: 60px;
+	padding-right: 80px; /* afstand til menuen */
+}
+nav {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #3D6BB4;
+	text-transform: uppercase;
+    }
+
+
+article {
+	height: auto;
+	min-height: 600px;
+	padding-top: 125px;
+}
+
+
+#landing_page {
+	background-image: url(../images/rawpixel-678089-unsplash.jpg);
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+#landing_tekst {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	width: 80%;
+	height: auto;
+	background-color: black;
+	opacity: 0.8;
+	border: thin black solid;
+	padding: 20px;
+	position: relative;
+	
+}
+
+#landing_tekst h1 {
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+#landing_tekst p {
+	text-align: center;
+}
+
+
+#one {
+	background-color: #DF9B67;
+}
+
+#two {
+	background-color: #DF9B67;
+}
+
+#three {
+	background-color: #DF9B67;
+}
+
+#four {
+	background-color: #DF9B67;
+}
+
+header {
+  display: flex;
+  position: sticky;
+  position: fixed;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;	
+}
+
+/* SimpleGrid regler */
+.content {
+
+	border: thin black solid;
+}
+
+/* speficik regel for forside content boksen således den får ingen baggrund og border (behøves måske ikke senere når alt andet bliver fjernet) */
+.frontpage_content {
+	background-color: transparent;
+	border: none;
+}
+/* frontpage img regler */
+.frontpage_img {
+	display: flex;
+	margin-left: auto; /* centrerer billedet lige i content-holderen */
+	margin-right: auto; /* centrerer billedet lige i content-holderen */
+	border-radius: 50%; /* runde hjørner */
+	margin-bottom: 30px; /* rykker teksten nedenunder lidt ned fra bunden af billedet */
+}
+
+/* frontpage txt regler */
+.frontpage_tekst {
+	text-align: center; /* smider teksten centreret */
+}
+
+
+/* Lato typho */
+
+.lato_medium {
+	color: white;
+	font-family: lato, sans-serif;
+	font-weight: 500;
+	font-style: normal; 
+}
+
+.lato_regular {
+	color: white;
+	font-family: lato, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+/* leg med til top button */
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 19px;
+    top: 12px;
+    font-size: 20px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+

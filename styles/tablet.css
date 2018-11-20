@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSS til "mellemformater" fx tablets */
+header {
+	  display: flex;
+	  position: sticky;
+	  position: fixed;
+	  justify-content: space-around;
+	  flex-direction: row;
+	  width: 100%;
+	  left: 0;
+	  top: 0;
+	  z-index: 100;
+	  border-top: 0;
+}
+
+footer {
+	display: block;
+	height: 80px;
+	background: #3D6BB4;
+}
+
+.logo {
+	width: auto;
+	background-color: transparent;
+}
+nav {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	/* leg */
+	background-color: #3D6BB4;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-family: Roboto, sans-serif;
+	padding: 10px;
+}
+
+nav a:hover {
+	color: white;	
+}
+
+article {
+	width: 100%;
+}
+
+.container {
+	
+}
+
+.icon {
+	display: none;
+}
