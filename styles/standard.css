@@ -70,6 +70,7 @@ body {
 
 .container h1 {
 	text-align: center;
+	font-size: 1.8em;
 }
 
 .logo, nav, article, footer {
@@ -79,7 +80,7 @@ body {
 }
 
 footer {
-	background-color: blueviolet;
+	background-color: #3D6BB4;
 }
 
 .logo {
@@ -92,6 +93,7 @@ nav {
 	flex-direction: column;
 	align-items: center;
 	background-color: #3D6BB4;
+	text-transform: uppercase;
     }
 
 
@@ -170,7 +172,7 @@ header {
 
 /* SimpleGrid regler */
 .content {
-	
+
 	border: thin black solid;
 }
 
