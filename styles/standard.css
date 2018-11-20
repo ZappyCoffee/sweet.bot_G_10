@@ -73,7 +73,7 @@ body {
 }
 
 .logo, nav, article, footer {
-	background: #ddd;
+	
 	width: 100%;
 	outline: 1px solid #666;
 }
@@ -91,6 +91,7 @@ nav {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: #3D6BB4;
     }
 
 
@@ -121,14 +122,16 @@ article {
 	width: 80%;
 	height: auto;
 	background-color: black;
-	opacity: 0.6;
+	opacity: 0.8;
 	border: thin black solid;
 	padding: 20px;
+	position: relative;
 	
 }
 
 #landing_tekst h1 {
 	font-size: 40px;
+	padding-bottom: 20px;
 }
 
 #landing_tekst p {
